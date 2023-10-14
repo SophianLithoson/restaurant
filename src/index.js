@@ -1,3 +1,5 @@
+import "./style.css";
+
 console.log("Things seem to be in order here");
 
 /* Footer stuff
