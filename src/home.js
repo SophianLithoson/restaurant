@@ -1,3 +1,5 @@
+import parrotIcon from "./parrot.png";
+
 function homeContent() {
     const contentContainer = document.getElementById("content-container");
     const newContentCard = document.createElement("div");
@@ -8,6 +10,7 @@ function homeContent() {
     newContentCard.classList.add("content-card");
     newCCHeading.textContent = "Welcome to the Jungle!";
     newCCText.textContent = "Here at Assam Jungle Cafe, we bring you the best cuisine from all across India. Inspired by the the cuisine of my home villiage located near the Dehing Patkai rainforest, Assam Jungle Cafe is your new source for authentic Indian food!";
+    newContentCard.appendChild(Object.assign(new Image(110, 110), {src: parrotIcon, style: "float: right; padding-left: 5px"}));
     newContentCard.appendChild(newCCHeading);
     newContentCard.appendChild(newCCText);
     contentContainer.appendChild(newContentCard);
