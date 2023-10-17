@@ -3,8 +3,6 @@ import naanPic from "./Naan_s.jpg";
 import tanBinhPic from "./tan_binh_s.jpg";
 
 function menuContent() {
-    console.log("function menuContent() triggered");
-
     const contentContainer = document.getElementById("content-container");
     contentContainer.innerHTML = "";
 

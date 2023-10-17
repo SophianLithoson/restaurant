@@ -1,8 +1,6 @@
 import monkeyIcon from "./monkey.png";
 
 function contactContent() {
-    console.log("function contactContent() triggered");
-
     const contentContainer = document.getElementById("content-container");
     const newContentCard = document.createElement("div");
     
