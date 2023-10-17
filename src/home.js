@@ -4,6 +4,7 @@ function homeContent() {
     const newCCHeading = document.createElement("h1");
     const newCCText = document.createElement("p");
 
+    contentContainer.innerHTML = "";
     newContentCard.classList.add("content-card");
     newCCHeading.textContent = "Welcome to the Jungle!";
     newCCText.textContent = "Here at Assam Jungle Cafe, we bring you the best cuisine from all across India. Inspired by the the cuisine of my home villiage located near the Dehing Patkai rainforest, Assam Jungle Cafe is your new source for authentic Indian food!";
